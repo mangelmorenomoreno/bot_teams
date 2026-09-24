@@ -5,13 +5,13 @@
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
     "title": "{{appTitle}}",
     "description": "{{appDescription}}",
     "dataSources": {
       "mainService": {
-        "uri": "/goods-movement-type/",
+        "uri": "goods-movement-type/",
         "type": "OData",
         "settings": {
           "odataVersion": "4.0"
