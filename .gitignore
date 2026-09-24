@@ -1,0 +1,14 @@
+node_modules/
+target/
+_out/
+gen/
+resources/
+dist/
+.cdsrc-private.json
+default-*.json
+*.sqlite
+mta_archives/
+*_mta_build_tmp
+*.mtar
+.DS_Store
+@cds-models

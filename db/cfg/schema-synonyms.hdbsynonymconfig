@@ -1,0 +1,8 @@
+{
+  "schemamgr_GOODS_MOVEMENT_TYPE_CONFIG": {
+    "target": {
+      "object": "GOODS_MOVEMENT_TYPE_CONFIG",
+      "schema.configure": "pptio-med-db-schema-mgr-hdi/schema"
+    }
+  }
+}

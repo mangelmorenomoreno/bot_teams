@@ -1,0 +1,33 @@
+{
+  "name": "pptio-good-movement-type",
+  "version": "1.0.0",
+  "description": "CRUD Fiori Elements para GOODS_MOVEMENT_TYPE_CONFIG",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@cap-js/hana": "^3",
+    "@sap/cds": "^10",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^3",
+    "@sap/cds-dk": "^10",
+    "rimraf": "^6"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive"
+  },
+  "cds": {
+    "requires": {
+      "[production]": {
+        "auth": "xsuaa",
+        "db": "hana"
+      }
+    }
+  }
+}
